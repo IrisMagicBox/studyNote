@@ -278,8 +278,9 @@ SpringCloud没有采用数字编号的方式命名版本号，而是采用了伦
 MicroServiceCloud父工程(Project)下初次带着3个子模块(Module)
 
 - microservicecloud-api 【封装的整体entity/接口/公共配置等】
-- microservicecloud-consumer-dept-80 【服务提供者】
-- microservicecloud-provider-dept-8001 【服务消费者】
+- - microservicecloud-provider-dept-8001 【服务提供者】
+- microservicecloud-consumer-dept-80 【服务消费者】
+
 
 #### 4.2 SpringCloud版本选择
 
